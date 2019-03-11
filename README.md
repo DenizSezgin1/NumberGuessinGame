@@ -1,2 +1,4 @@
 # NumberGuessinGame
-Number guessing game
+Instructions:
+When user attempts to guess computer's number, computer will return a hint. For example, assume computer's number as 1234 and user makes a guess 4138. Computer will return: 4- Correct value, wrong place, 1- Correct value, wrong place, 3- Correct value and correct place, 8- Totally wrong. 
+When computer attempts to guess user number, user will return hints. Computer will ask for a number to user and user will give hint digit by digit. User will type 1 if that digit is true, type 2 if that digit is wrong. For example, assume user number as 1234 and computer guesses 8294. Computer will ask: Give me hint for 8, you will type 2. Give me hint for 2, you will type 1. Give me hint for 9, you will type 2. Give me hint for 4, you will type 1. There will be new numbers in the next round for which numbers you typed 2 and numbers will stay in the next round for which numbers you typed 1.
